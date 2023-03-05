@@ -1,4 +1,10 @@
 /* custom JS goes here */
+/***********************************
+File name     : app.js
+Student name  : Mariela Ramos
+Student ID    : 301324510
+Date          : 2023-03-04
+************************************/
 
 /* pagination code from http://www.bootply.com/lxa0FF9yhw */
 $.fn.pageMe = function(opts){
@@ -108,7 +114,7 @@ $.fn.pageMe = function(opts){
   $(".btn-danger").click(function(event){
     if(!confirm("Are you sure?")) {
       event.preventDefault();
-      window.location.assign("/games");
+      window.location.assign("/books"); //'/games' was changed for '/books' to cancel a delete of a book
     }
   });
 
